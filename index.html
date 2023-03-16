@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>운동 타이머</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>운동 타이머</h1>
+        <label for="exercise-time">운동 시간 (초):</label>
+        <input type="number" id="exercise-time" min="1">
+        <label for="rest-time">휴식 시간 (초):</label>
+        <input type="number" id="rest-time" min="1">
+        <label for="sets">세트 수:</label>
+        <input type="number" id="sets" min="1">
+        <button id="start-timer">타이머 시작</button>
+        <div id="timer-display" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
